@@ -15,3 +15,15 @@ frontend/node_modules/
 # Build
 dist/
 build/
+
+
+.env
+.env.*
+backend/.env
+backend/venv/
+node_modules/
+frontend/node_modules/
+__pycache__/
+*.pyc
+dist/
+build/
