@@ -63,6 +63,11 @@ class JDMatchRequest(BaseModel):
     job_description: str
 
 
+@app.get("/")
+def root():
+    return {"status": "ok", "service": "AI Candidate Portfolio API"}
+
+
 @app.get("/api/health")
 def health():
     return {"status": "ok"}
