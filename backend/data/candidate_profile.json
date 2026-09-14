@@ -1,6 +1,6 @@
 {
   "name": "Sarthak Sinha",
-  "headline": "Software Engineer at Accenture | B.Tech CSE, SRM Institute of Science and Technology",
+  "headline": "Software Engineer at Accenture | Full-Stack & Backend Developer | AI-Integrated Applications",
   "education": [
     {
       "degree": "B.Tech, Computer Science and Engineering",
@@ -10,73 +10,99 @@
     }
   ],
   "skills": {
-    "languages": ["C++", "Python", "SQL", "PL/SQL", "JavaScript", "HTML", "CSS"],
+    "languages": [
+      "C++",
+      "Python",
+      "SQL",
+      "PL/SQL",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
     "frameworks_and_tools": [
-      "Node.js", "Express.js", "React", "Zustand", "Socket.IO", "MongoDB", "Mongoose",
-      "Oracle PL/SQL", "Oracle APEX", "JWT Authentication", "Git", "GitHub", "Postman",
-      "Jupyter Notebook", "Cloudinary", "PyTorch (deep learning)"
+      "Node.js",
+      "Express.js",
+      "FastAPI",
+      "React",
+      "Zustand",
+      "Socket.IO",
+      "MongoDB",
+      "MongoDB Atlas",
+      "Mongoose",
+      "Oracle PL/SQL",
+      "Oracle APEX",
+      "JWT Authentication",
+      "LangChain",
+      "LangGraph",
+      "FAISS",
+      "Gemini API",
+      "Groq API",
+      "Streamlit",
+      "Docker",
+      "Render",
+      "Git",
+      "GitHub",
+      "Postman",
+      "Jupyter Notebook",
+      "Cloudinary"
     ],
     "areas": [
       "Backend Development & REST API Design",
-      "Machine Learning / Deep Learning",
       "AI/ML Concepts: RAG, Agentic AI, Embeddings, Vector Databases",
       "AI Chatbot Integration (Gemini API, Groq API)",
-      "Computer Networks & Network Security (Deep Packet Inspection)",
+      "Prompt Engineering",
       "Full-Stack Web Development",
-      "Blockchain-based Distributed Systems",
+      "Role-Based Access Control & Middleware Design",
       "Data Structures and Algorithms, Object-Oriented Programming",
-      "Data Analytics, Basic Cloud"
+      "API Testing, Data Analytics, Cloud Fundamentals"
     ]
   },
   "projects": [
     {
-      "title": "Dual-Stream Cross-Attention CNN-Transformer for Military Audio Classification",
-      "type": "Final Year Project",
-      "supervisor": "Dr. N. Nithiyanandam, SRM IST",
-      "description": "A dual-stream architecture combining CNN and Transformer components with cross-attention to classify military audio signals. Includes a full project handbook covering methodology and results.",
-      "tech": ["PyTorch", "Deep Learning", "Audio Signal Processing", "Transformers"],
-      "status": "Completed / documented in final year handbook"
+      "title": "Kinescope - Full-Stack Video Platform with AI Agents",
+      "type": "Personal Project",
+      "description": "A full-stack YouTube-style video platform built with React and Node/Express/MongoDB, with Cloudinary video upload, comments, subscriptions, and playlists, deployed on Render with GitHub CI/CD. Includes two LangGraph AI agents on Gemini: a RAG-based recommendation engine grounded in a user's real watch/like history, and a hallucination-safe video-chat assistant that answers only from retrieved video metadata.",
+      "tech": [
+        "React",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "LangGraph",
+        "Gemini API",
+        "Cloudinary"
+      ],
+      "status": "Live / Deployed"
     },
     {
-      "title": "Video Hosting Platform (Backend)",
+      "title": "Adaptive RAG Chatbot (Agentic AI, Full-Stack)",
       "type": "Personal Project",
-      "description": "A complete backend for a YouTube-like video hosting platform with user authentication, video upload, like/dislike, comments, replies, subscriptions, and channel management. Secure authentication using JWT, bcrypt, access and refresh tokens. Scalable REST APIs with middleware, error handling, and role-based access control.",
-      "tech": ["Node.js", "Express.js", "MongoDB", "Mongoose", "JWT", "Bcrypt"],
-      "status": "Completed"
-    },
-    {
-      "title": "Real-time Chat App (Backend)",
-      "type": "Personal Project",
-      "description": "A real-time chat application with persistent messaging, JWT authentication, and a modern UI. Socket.IO powers real-time messaging, user status, and instant UI updates. Global state managed with Zustand; image sharing via Cloudinary.",
-      "tech": ["React", "Zustand", "Socket.IO", "Node.js", "Express", "MongoDB", "Cloudinary"],
-      "status": "Built and deployed"
+      "description": "An agentic RAG chatbot using LangGraph that classifies each query with an LLM and dynamically routes it to document retrieval, general knowledge, or live web search (Tavily API). Features a self-correcting retrieval pipeline with LLM-based relevance grading and automatic query rewriting on low-relevance results, backed by a FAISS vector store and Groq-hosted LLMs. Deployed as a full-stack production app (FastAPI backend on Render, Streamlit frontend on Streamlit Cloud) with persistent, session-based chat history in MongoDB Atlas.",
+      "tech": [
+        "Python",
+        "FastAPI",
+        "LangGraph",
+        "LangChain",
+        "Groq API",
+        "FAISS",
+        "MongoDB",
+        "Streamlit",
+        "Tavily API"
+      ],
+      "status": "Live / Deployed"
     },
     {
       "title": "LearnMind - AI-Assisted E-Learning Platform (Backend)",
       "type": "Personal Project",
-      "description": "A full-stack AI-assisted e-learning platform with role-based authentication for students and other users, an adaptive assessment engine integrated with the Gemini API for personalized exams, student diagnostic dashboards, real-time notifications via Socket.IO, and an AI tutoring chatbot for interactive learning support.",
-      "tech": ["React", "Zustand", "Node.js", "Express", "MongoDB", "Socket.IO", "Gemini API"],
-      "status": "Completed"
-    },
-    {
-      "title": "Social Workspace Tool",
-      "type": "Personal / Side Project",
-      "description": "A Buffer/Hootsuite-style social media management and scheduling tool, built as a full-stack application with background job processing for scheduled posts.",
-      "tech": ["Next.js", "TypeScript", "Tailwind CSS", "PostgreSQL", "BullMQ", "Redis"],
-      "status": "In progress"
-    },
-    {
-      "title": "C++ Packet Analyzer with Deep Packet Inspection",
-      "type": "Personal / Networking Project",
-      "description": "A packet analysis tool operating on .pcap files, implementing Deep Packet Inspection (DPI) with SNI-based blocking of specific applications (e.g. YouTube, Facebook).",
-      "tech": ["C++", "Networking", "DPI", "pcap"],
-      "status": "Completed"
-    },
-    {
-      "title": "MDCN - Military Distributed Communication Network",
-      "type": "Applied Research Project",
-      "description": "A blockchain-based distributed communication system exploring secure, resilient messaging architectures for military communication use cases.",
-      "tech": ["Blockchain", "Distributed Systems"],
+      "description": "A full-stack, AI-assisted e-learning platform with role-based authentication for students and other users. Integrated the Gemini API for an adaptive assessment engine generating personalized exams, student diagnostic dashboards for real-time performance insights, Socket.IO notifications to boost engagement, and an AI tutoring chatbot for interactive learning support.",
+      "tech": [
+        "React",
+        "Zustand",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Socket.IO",
+        "Gemini API"
+      ],
       "status": "Completed"
     }
   ],
@@ -85,13 +111,13 @@
       "role": "Software Engineer",
       "organization": "Accenture",
       "duration": "July 2026 - Present",
-      "description": "Collaborated with a development team on real-world web projects following industry-standard coding and design practices. Built and tested responsive web pages/components, and assisted with deployment and post-release debugging. Used Git-based workflows for version control and participated in code reviews. Documented issues and fixes during maintenance cycles."
+      "description": "Built and tested responsive web pages and components with a cross-functional team, supporting deployment and post-release debugging across multiple release cycles. Applied industry-standard coding and design practices on live production web projects, improving consistency and maintainability of delivered code. Used Git-based workflows and participated in regular code reviews, contributing to improved code quality and reduced defect rates."
     },
     {
       "role": "Research Contributor",
       "organization": "SRM Institute of Science and Technology",
       "supervisor": "Dr. N. Nithiyanandam",
-      "description": "Applied CS research and academic project work under departmental supervision, including the final year military audio classification project and related documentation."
+      "description": "Applied CS research and academic project work under departmental supervision."
     }
   ],
   "achievements_and_publications": [
@@ -110,16 +136,18 @@
     {
       "title": "1st Runner Up, HACKRUSH 1.0 (EdTech Track)",
       "type": "Hackathon Award",
-      "description": "Built a chatbot for research paper scraping and PDF summarization."
+      "description": "Built a chatbot for automated research paper scraping and PDF summarization."
     }
   ],
-  "certifications": ["Alteryx Designer Core"],
+  "certifications": [
+    "Alteryx Designer Core"
+  ],
   "social_links": {
     "github": "REPLACE_WITH_GITHUB_URL",
     "linkedin": "REPLACE_WITH_LINKEDIN_URL",
     "portfolio": "REPLACE_WITH_PORTFOLIO_URL",
     "email": "sarthak23sinha@gmail.com"
   },
-  "strengths_summary": "Hands-on, practical builder who prefers shipping real projects over pure theory — spans full-stack web development, backend systems, AI/ML integration, deep learning, low-level networking, and blockchain systems, backed by hands-on experience as a Software Engineer at Accenture.",
-  "notes_for_ai": "Only answer using the fields above. If a field says REPLACE_WITH_..., treat it as not yet provided and tell the user this information hasn't been added by the candidate yet — do not guess a value."
+  "strengths_summary": "Hands-on, practical builder who prefers shipping real projects over pure theory - spans full-stack web development, backend systems, and agentic AI/RAG systems, backed by hands-on experience as a Software Engineer at Accenture.",
+  "notes_for_ai": "Only answer using the fields above. If a field says REPLACE_WITH_..., treat it as not yet provided and tell the user this information hasn't been added by the candidate yet - do not guess a value."
 }
