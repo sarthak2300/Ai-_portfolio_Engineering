@@ -1,6 +1,12 @@
 {
   "name": "Sarthak Sinha",
-  "headline": "Software Engineer at Accenture | Full-Stack & Backend Developer | AI-Integrated Applications",
+  "headline": "Software Engineer | Full-Stack & Backend Developer | AI-Integrated Applications",
+  "professional_summary": "Software Engineer experienced in building and shipping production web applications, backend systems, and AI-integrated platforms using Node.js, React, and MongoDB. Strong foundation in REST API design, data structures & algorithms, and applied machine learning, with a track record of delivering full-stack projects end-to-end.",
+  "key_highlights": [
+    "Delivered 3+ full-stack applications (video hosting platform, agentic RAG chatbot, AI e-learning platform) with secure auth, database design, and real-time/AI features.",
+    "Software Engineer at Accenture, contributing to live web releases across the full development-to-deployment cycle.",
+    "Secured 2 hackathon podium finishes (GENEVOE 2024, HACKRUSH 1.0) building applied AI/ML solutions under time constraints."
+  ],
   "education": [
     {
       "degree": "B.Tech, Computer Science and Engineering",
@@ -26,12 +32,12 @@
       "React",
       "Zustand",
       "Socket.IO",
+      "JWT Authentication",
       "MongoDB",
       "MongoDB Atlas",
       "Mongoose",
       "Oracle PL/SQL",
       "Oracle APEX",
-      "JWT Authentication",
       "LangChain",
       "LangGraph",
       "FAISS",
@@ -48,11 +54,11 @@
     ],
     "areas": [
       "Backend Development & REST API Design",
-      "AI/ML Concepts: RAG, Agentic AI, Embeddings, Vector Databases",
+      "Role-Based Access Control & Middleware Design",
+      "AI/ML Concepts: RAG (Retrieval-Augmented Generation), Agentic AI, Embeddings, Vector Databases",
       "AI Chatbot Integration (Gemini API, Groq API)",
       "Prompt Engineering",
       "Full-Stack Web Development",
-      "Role-Based Access Control & Middleware Design",
       "Data Structures and Algorithms, Object-Oriented Programming",
       "API Testing, Data Analytics, Cloud Fundamentals"
     ]
@@ -61,7 +67,7 @@
     {
       "title": "Kinescope - Full-Stack Video Platform with AI Agents",
       "type": "Personal Project",
-      "description": "A full-stack YouTube-style video platform built with React and Node/Express/MongoDB, with Cloudinary video upload, comments, subscriptions, and playlists, deployed on Render with GitHub CI/CD. Includes two LangGraph AI agents on Gemini: a RAG-based recommendation engine grounded in a user's real watch/like history, and a hallucination-safe video-chat assistant that answers only from retrieved video metadata.",
+      "description": "Built a full-stack YouTube-style platform - React, Node/Express, MongoDB - with Cloudinary video upload, comments, subscriptions, and playlists; deployed on Render with GitHub CI/CD. Designed 2 LangGraph AI agents on Gemini: a RAG-based recommendation engine grounded in a user's real watch/like history, and a hallucination-safe video-chat assistant that answers only from retrieved video metadata. Live demo available.",
       "tech": [
         "React",
         "Node.js",
@@ -76,7 +82,7 @@
     {
       "title": "Adaptive RAG Chatbot (Agentic AI, Full-Stack)",
       "type": "Personal Project",
-      "description": "An agentic RAG chatbot using LangGraph that classifies each query with an LLM and dynamically routes it to document retrieval, general knowledge, or live web search (Tavily API). Features a self-correcting retrieval pipeline with LLM-based relevance grading and automatic query rewriting on low-relevance results, backed by a FAISS vector store and Groq-hosted LLMs. Deployed as a full-stack production app (FastAPI backend on Render, Streamlit frontend on Streamlit Cloud) with persistent, session-based chat history in MongoDB Atlas.",
+      "description": "Built an agentic RAG chatbot using LangGraph that classifies each query with an LLM and dynamically routes it to document retrieval, general knowledge, or live web search (Tavily API). Designed a self-correcting retrieval pipeline with LLM-based relevance grading and automatic query rewriting on low-relevance results, backed by a FAISS vector store and Groq-hosted LLMs. Deployed a full-stack production app (FastAPI backend on Render, Streamlit frontend on Streamlit Cloud) with persistent, session-based chat history in MongoDB Atlas. Live demo available.",
       "tech": [
         "Python",
         "FastAPI",
@@ -93,7 +99,7 @@
     {
       "title": "LearnMind - AI-Assisted E-Learning Platform (Backend)",
       "type": "Personal Project",
-      "description": "A full-stack, AI-assisted e-learning platform with role-based authentication for students and other users. Integrated the Gemini API for an adaptive assessment engine generating personalized exams, student diagnostic dashboards for real-time performance insights, Socket.IO notifications to boost engagement, and an AI tutoring chatbot for interactive learning support.",
+      "description": "Built a full-stack, AI-assisted e-learning platform with role-based authentication; integrated the Gemini API for an adaptive assessment engine generating personalized exams and an AI tutoring chatbot. Designed student diagnostic dashboards for real-time performance insights and added Socket.IO notifications to boost engagement. Live demo available.",
       "tech": [
         "React",
         "Zustand",
@@ -112,31 +118,13 @@
       "organization": "Accenture",
       "duration": "July 2026 - Present",
       "description": "Built and tested responsive web pages and components with a cross-functional team, supporting deployment and post-release debugging across multiple release cycles. Applied industry-standard coding and design practices on live production web projects, improving consistency and maintainability of delivered code. Used Git-based workflows and participated in regular code reviews, contributing to improved code quality and reduced defect rates."
-    },
-    {
-      "role": "Research Contributor",
-      "organization": "SRM Institute of Science and Technology",
-      "supervisor": "Dr. N. Nithiyanandam",
-      "description": "Applied CS research and academic project work under departmental supervision."
     }
   ],
   "achievements_and_publications": [
     {
-      "title": "Real-Time Renewable Energy Monitoring with Edge AI",
-      "type": "IEEE Conference Paper",
-      "conference": "ICCRTEE 2026",
-      "paper_id": "ICCRTEE2026-299",
-      "description": "Presented research on real-time renewable energy monitoring using Edge AI techniques."
-    },
-    {
-      "title": "2nd Runner Up, GENEVOE 2024",
+      "title": "1st Runner-Up, HACKRUSH 1.0 (EdTech Track)",
       "type": "Hackathon Award",
-      "description": "Deepfake detection using ResNeXt50 and LSTM."
-    },
-    {
-      "title": "1st Runner Up, HACKRUSH 1.0 (EdTech Track)",
-      "type": "Hackathon Award",
-      "description": "Built a chatbot for automated research paper scraping and PDF summarization."
+      "description": "Built a chatbot for automated research paper scraping and PDF summarization. (2024)"
     }
   ],
   "certifications": [
@@ -146,7 +134,8 @@
     "github": "https://github.com/sarthak2300",
     "linkedin": "https://www.linkedin.com/in/sarthak-sinha-b4824724a/",
     "portfolio": "https://ai-portfolio-engineering.vercel.app/",
-    "email": "sarthak23sinha@gmail.com"
+    "email": "sarthak23sinha@gmail.com",
+    "phone": "+91-9548044987"
   },
   "strengths_summary": "Hands-on, practical builder who prefers shipping real projects over pure theory - spans full-stack web development, backend systems, and agentic AI/RAG systems, backed by hands-on experience as a Software Engineer at Accenture.",
   "notes_for_ai": "Only answer using the fields above. If a field says REPLACE_WITH_..., treat it as not yet provided and tell the user this information hasn't been added by the candidate yet - do not guess a value."

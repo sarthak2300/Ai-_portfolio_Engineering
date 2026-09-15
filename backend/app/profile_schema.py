@@ -51,11 +51,14 @@ class SocialLinks(BaseModel):
     linkedin: Optional[str] = None
     portfolio: Optional[str] = None
     email: Optional[str] = None
+    phone: Optional[str] = None
 
 
 class CandidateProfile(BaseModel):
     name: str
     headline: Optional[str] = None
+    professional_summary: Optional[str] = None
+    key_highlights: List[str] = Field(default_factory=list)
     education: List[Education] = Field(default_factory=list)
     skills: Skills
     projects: List[Project] = Field(default_factory=list)
